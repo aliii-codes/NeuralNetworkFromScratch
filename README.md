@@ -1,47 +1,73 @@
-# NeuralNetworkFromScratch
+# 🧠 NeuralNetworkFromScratch
+**Build and train a neural network from the ground up!**
 
-## Project Title & Description
-A simple 2-layered neural network implemented from scratch using NumPy. This project demonstrates the core concepts of neural networks, including forward propagation, backpropagation, and gradient descent. It's designed for educational purposes and can classify non-linear datasets like spirals.
+[![GitHub stars](https://img.shields.io/github/stars/aliii-codes/NeuralNetworkFromScratch?style=for-the-badge)](https://github.com/aliii-codes/NeuralNetworkFromScratch/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/aliii-codes/NeuralNetworkFromScratch?style=for-the-badge)](https://github.com/aliii-codes/NeuralNetworkFromScratch/network)
+[![GitHub issues](https://img.shields.io/github/issues/aliii-codes/NeuralNetworkFromScratch?style=for-the-badge)](https://github.com/aliii-codes/NeuralNetworkFromScratch/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Features
-- **2-Layer Neural Network**: One hidden layer with ReLU activation and an output layer with softmax activation.
-- **Kaiming Initialization**: Weights initialized using Kaiming initialization for better convergence.
-- **Regularization**: L2 regularization to prevent overfitting.
-- **Visualization**: Plots decision boundaries and dataset for intuitive understanding.
-- **Accuracy Tracking**: Monitors training accuracy and loss over epochs.
+![Spiral Classification](spiral_classification.png)
 
-## Tech Stack
-- **Python**
-- **NumPy**: For numerical computations.
-- **Matplotlib**: For data visualization.
+## ✨ Highlights
+- **Educational Focus**: Learn core neural network concepts through a simple, intuitive implementation.
+- **From-Scratch Implementation**: No deep learning frameworks—just pure NumPy.
+- **Non-Linear Classification**: Handles complex datasets like spirals with ease.
 
-## Installation
+## 📚 Features
+
+| Feature                     | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| **2-Layer Architecture**    | One hidden layer with ReLU and an output layer with softmax activation.     |
+| **Kaiming Initialization**  | Weights initialized using Kaiming method for improved convergence.          |
+| **L2 Regularization**       | Prevents overfitting by penalizing large weights.                           |
+| **Decision Boundary Plot**  | Visualize how the network classifies data.                                  |
+| **Training Metrics**        | Tracks accuracy and loss over epochs for performance monitoring.            |
+
+## 🛠️ Tech Stack
+
+| Category       | Technologies                                                                 |
+|----------------|------------------------------------------------------------------------------|
+| **Language**   | ![Python](https://img.shields.io/badge/python-3.8+-blue?style=flat-square)  |
+| **Numerics**   | ![NumPy](https://img.shields.io/badge/numpy-1.20+-blue?style=flat-square)   |
+| **Visualization** | ![Matplotlib](https://img.shields.io/badge/matplotlib-3.3+-green?style=flat-square) |
+
+## 🚀 Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/aliii-codes/NeuralNetworkFromScratch.git
    cd NeuralNetworkFromScratch
    ```
-2. Install required dependencies:
+2. Install dependencies:
    ```bash
-   pip install numpy matplotlib
+   pip install -r requirements.txt
    ```
 
-## Usage
-1. Run the neural network on a synthetic spiral dataset:
-   ```bash
-   python neural_net.py
-   ```
-2. The script will train the network and save the decision boundary plot as `spiral_classification.png`.
+## 🏃 Usage
+Train the neural network on a synthetic spiral dataset:
+```bash
+python neural_net.py
+```
+This will generate a `spiral_classification.png` plot showing the decision boundary.
 
-## Project Structure
+## 📁 Project Structure
 ```
 NeuralNetworkFromScratch/
-│
-├── neural_net.py          # Main neural network implementation
-├── utils.py               # Utility functions for dataset creation and plotting
-└── test.ipynb             # Jupyter notebook for testing and experimentation
+├── neural_net.py          # Core neural network implementation
+├── utils.py               # Utility functions for dataset and plotting
+└── test.ipynb             # Jupyter notebook for experimentation
 ```
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+## 🤝 Contributing
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/new-feature`
+3. Commit changes: `git commit -m "Add new feature"`
+4. Push to branch: `git push origin feature/new-feature`
+5. Open a pull request
+
+## 🐞 Bug Reports & Feature Requests
+Found an issue? Have a great idea? [Open an issue](https://github.com/aliii-codes/NeuralNetworkFromScratch/issues/new)
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Acknowledgements**: Inspired by classic machine learning implementations and educational resources.
